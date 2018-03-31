@@ -1,0 +1,7 @@
+{
+  "login_sta.py::LoginTest": true,
+  "login_sta.py::LoginTest::test_login1": true,
+  "login_sta.py::LoginTest::test_login2": true,
+  "login_sta.py::LoginTest::test_login3": true,
+  "login_sta.py::LoginTest::test_login4": true
+}
