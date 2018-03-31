@@ -1,7 +1,7 @@
 from HTMLTestRunner_PY3 import HTMLTestRunner
 import unittest
 import time, os
-from 完整的自动化项目.test163mailpro.mail163.test_case.models import sendemail
+from test163mailpro.mail163.test_case.models import sendemail
 
 def find_newest_report(testreport):
     """

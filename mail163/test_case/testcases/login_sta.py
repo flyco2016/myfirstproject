@@ -2,8 +2,8 @@ from time import sleep
 import unittest, random, sys
 #sys.path.append('./models')
 #sys.path.append('./page_obj')
-from 完整的自动化项目.test163mailpro.mail163.test_case.models import myunit, screenshot
-from 完整的自动化项目.test163mailpro.mail163.test_case.page_obj.loginpage import LoginPage
+from test163mailpro.mail163.test_case.models import myunit, screenshot
+from test163mailpro.mail163.test_case.page_obj.loginpage import LoginPage
 
 class LoginTest(myunit.MyTest):
     '''
