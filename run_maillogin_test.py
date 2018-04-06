@@ -29,3 +29,4 @@ if __name__ == '__main__':
 
     file_path = find_newest_report('./mail163/report/HTMLReport/')
     sendemail.send_email(file_path)
+	print('邮件告诉董浩')
