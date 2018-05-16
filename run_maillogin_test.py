@@ -5,7 +5,7 @@ from test163mailpro.mail163.test_case.models import sendemail
 
 def find_newest_report(testreport):
     """
-	为了验证自动触发构建而添加，再次添加
+	为了验证自动触发构建而添加，再次添加呀
 	"""
     lists = os.listdir(testreport)
     lists.sort(key=lambda fn: os.path.getmtime(testreport+'\\'+fn))
